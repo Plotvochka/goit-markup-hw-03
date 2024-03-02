@@ -1,6 +1,7 @@
 body {
   background-color: white;
   font-family: "Roboto", sans-serif;
+  color: #434455;
 }
 
 a {
@@ -38,7 +39,11 @@ ul {
 
 .header-nav-link:hover,
 .header-nav-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
+}
+
+.header-address {
+  font-style: normal;
 }
 
 .header-address-list {
@@ -53,7 +58,7 @@ ul {
 
 .address-link:hover,
 .address-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 /* Hero */
@@ -101,7 +106,6 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 /* Team */
@@ -138,7 +142,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #434455;
 }
 
 /* Portfolio */
@@ -165,7 +168,6 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 /* footer */
 .footer {
