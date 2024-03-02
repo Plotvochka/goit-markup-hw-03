@@ -31,7 +31,14 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.header-nav-link {
   color: #2e2f42;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: #4d5ae5;
 }
 
 .header-address-list {
@@ -42,6 +49,11 @@ ul {
 
 .address-link {
   color: #434455;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: #4d5ae5;
 }
 
 /* Hero */
@@ -68,6 +80,11 @@ ul {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 
 /* Skills */
