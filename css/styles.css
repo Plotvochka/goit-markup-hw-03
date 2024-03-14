@@ -65,6 +65,7 @@ img {
 .header-nav {
   display: flex;
   flex-grow: 1;
+  align-items: center;
 }
 
 .logo {
@@ -75,6 +76,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .header-logo {
@@ -83,6 +85,7 @@ img {
 
 .header-flex {
   display: flex;
+  padding: 0 15px;
 }
 
 .header-nav-list {
@@ -92,10 +95,11 @@ img {
   letter-spacing: 0.02em;
   display: flex;
   gap: 40px;
-  margin-left: 76px;
+  /* margin-left: 76px; */
 }
 .header-nav-link {
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .header-nav-link:hover,
@@ -124,14 +128,15 @@ img {
 
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
+  display: flex;
+  /* flex-direction: column;
+  align-items: center; */
 }
 
 .hero-wrap {
-  padding-top: 188px;
-  padding-bottom: 188px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  /* padding-top: 188px;
+  padding-bottom: 188px; */
 }
 .hero-title {
   font-weight: 700;
@@ -141,7 +146,7 @@ img {
   text-align: center;
   color: #fff;
   max-width: 496px;
-  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -153,11 +158,14 @@ img {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
-  margin-top: 48px;
+  min-width: 169px;
+  height: 56px;
   border-radius: 4px;
-  padding: 16px 32px;
+  /* padding: 16px 32px; */
   border: none;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-btn:hover,
@@ -176,8 +184,7 @@ img {
   display: flex;
   gap: 24px;
   justify-content: center;
-  /* padding-left: 15px;
-  padding-right: 15px; */
+  padding: 0 15px;
 }
 
 .skills-title {
@@ -225,11 +232,15 @@ img {
 
 .team-list-item {
   background-color: #fff;
-  /* width: calc((100% - 3 * 24px) / 4); */
-  padding-bottom: 32px;
+  width: calc((100% - 3 * 24px) / 4);
+  /* padding-bottom: 32px; */
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.team-list-container {
+  padding: 32px 0;
 }
 
 .team-list-title {
@@ -276,7 +287,7 @@ img {
 }
 
 .portfolio-list-item {
-  /* width: calc((100% - 24px * 2) / 3); */
+  width: calc((100% - 24px * 2) / 3);
 }
 
 .portfolio-list-title {
@@ -308,6 +319,11 @@ img {
 }
 
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-logo-color {
   color: #f4f4fd;
 }
 
@@ -316,9 +332,5 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-top: 16px;
-}
-
-.footer-wrap {
   max-width: 264px;
 }
